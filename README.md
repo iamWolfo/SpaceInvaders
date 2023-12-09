@@ -1,7 +1,6 @@
 SpaceInvaders
 ============= 
-This is a remake of the space invader phaser example, which you can find here:
-http://examples.phaser.io/
+This is a remake of the space invader phaser example.
 
 This remake is made with require.js, which breaks up the code into modules.
 Modules are in assets/javascript/module
@@ -19,4 +18,4 @@ Known issue: In every new play state(after the end state) the game makes new DOM
 The cause: in every cycle i make a new text to show the score.
 I tried to destroy the texts but i never succeed.
 
-You can play with it here: http://strykerkkd.github.io/SpaceInvaders/
+You can play with it here: https://iamwolfo.github.io/SpaceInvaders/
