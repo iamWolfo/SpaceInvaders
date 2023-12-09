@@ -1,6 +1,3 @@
-/**
- * Created by stryker on 2014.03.05..
- */
 require(['state/Load','state/Start','state/Play','state/End','lib/phaser-no-physics.min'],function(Load,Start,Play,End){
 
     var _game = new Phaser.Game(800, 600, Phaser.AUTO, 'game');
